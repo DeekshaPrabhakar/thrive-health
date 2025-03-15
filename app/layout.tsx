@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Header from '../components/Header';
+import GraphQLProvider from './graphQLProvider';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -26,8 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased mx-auto px-8 py-1`}>
-        <Header />
-        {children}
+        <GraphQLProvider>
+          <Header />
+          {children}
+        </GraphQLProvider>
       </body>
     </html>
   );

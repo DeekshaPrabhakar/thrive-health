@@ -30,15 +30,16 @@
   --color-yellow-950: #442604;
 
   /* earls-green */
-  --color-green-50: #f9fde9;
-  --color-green-100: #f0fcc5;
-  --color-green-200: #e7fa8e;
-  --color-green-300: #dff64e;
-  --color-green-400: #dcf11e;
-  --color-green-500: #d5e111;
-  --color-green-600: #b8b40b;
-  --color-green-700: #9b8c0d;
-  --color-green-800: #806e13;
-  --color-green-900: #6d5916;
-  --color-green-950: #403108;
+
+  --color-green-50: #f8ffe7;
+  --color-green-100: #ebffc0;
+  --color-green-200: #dcff85;
+  --color-green-300: #d0ff3f;
+  --color-green-400: #d0ff0b;
+  --color-green-500: #d4f400;
+  --color-green-600: #c9d300;
+  --color-green-700: #bab400;
+  --color-green-800: #8a7e09;
+  --color-green-900: #75660e;
+  --color-green-950: #453903;
 }
